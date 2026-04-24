@@ -1,0 +1,33 @@
+body {
+  font-family: fantasy;
+  line-height: 1.8;
+  color: #333;
+  background: linear-gradient(#C0C0C0, #E10600 , #00A19B);
+  min-height: 100vh;
+  position: relative;
+}
+b{
+  color:black;
+}
+ul
+{
+  border-color: red;
+  color:white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
+}
+
+img:hover {
+  transform: scale(1.02) translateY(-5px);
+  box-shadow: 0 10px 30px rgba(225, 6, 0, 0.2);
+}
+p{
+   
+}

@@ -1,0 +1,55 @@
+body {
+  font-family: fantasy;
+  line-height: 1.8;
+  color: #333;
+  background: linear-gradient(00, #1a1f3a , #000000);
+  min-height: 100vh;
+  position: relative;
+}
+
+
+header {
+  background: linear-gradient(00, #e10600, #c41e3a);
+  padding: 30px 0;
+  box-shadow: 0 8px 30px rgba(225, 6, 0, 0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  animation: slideDown 0.5s ease;
+}
+b{
+  color:gray
+}
+ul{
+  color:white
+}
+hr{
+  border: none;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, gray, transparent);
+  margin: 30px 0;
+  border-radius: 2px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
+}
+
+img:hover {
+  transform: scale(1.02) translateY(-5px);
+  box-shadow: 0 10px 30px rgba(225, 6, 0, 0.2);
+}
+
+
+
+.t{
+  display: grid;
+  place-items: center;
+  height: 200px;
+   
+}
